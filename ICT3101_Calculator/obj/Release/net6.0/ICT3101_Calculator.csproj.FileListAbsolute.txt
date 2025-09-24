@@ -1,0 +1,15 @@
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/bin/Release/net6.0/ICT3101_Calculator
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/bin/Release/net6.0/ICT3101_Calculator.deps.json
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/bin/Release/net6.0/ICT3101_Calculator.runtimeconfig.json
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/bin/Release/net6.0/ICT3101_Calculator.dll
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/bin/Release/net6.0/ICT3101_Calculator.pdb
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/obj/Release/net6.0/ICT3101_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/obj/Release/net6.0/ICT3101_Calculator.AssemblyInfoInputs.cache
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/obj/Release/net6.0/ICT3101_Calculator.AssemblyInfo.cs
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/obj/Release/net6.0/ICT3101_Calculator.csproj.CoreCompileInputs.cache
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/obj/Release/net6.0/ICT3101_Calculator.sourcelink.json
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/obj/Release/net6.0/ICT3101_Calculator.dll
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/obj/Release/net6.0/refint/ICT3101_Calculator.dll
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/obj/Release/net6.0/ICT3101_Calculator.pdb
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/obj/Release/net6.0/ICT3101_Calculator.genruntimeconfig.cache
+/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/obj/Release/net6.0/ref/ICT3101_Calculator.dll

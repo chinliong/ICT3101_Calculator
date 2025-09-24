@@ -26,4 +26,10 @@
     <ProjectReference Include="..\ICT3101_Calculator\ICT3101_Calculator.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="MagicNumbers.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
