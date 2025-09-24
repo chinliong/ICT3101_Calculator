@@ -1,0 +1,164 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj": {}
+  },
+  "projects": {
+    "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj",
+        "projectName": "ICT3101_Calculator.UnitTests",
+        "projectPath": "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator.UnitTests/ICT3101_Calculator.UnitTests.csproj",
+        "packagesPath": "/Users/ycl/.nuget/packages/",
+        "outputPath": "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ycl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/ICT3101_Calculator.csproj": {
+                "projectPath": "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/ICT3101_Calculator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/ICT3101_Calculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/ICT3101_Calculator.csproj",
+        "projectName": "ICT3101_Calculator",
+        "projectPath": "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/ICT3101_Calculator.csproj",
+        "packagesPath": "/Users/ycl/.nuget/packages/",
+        "outputPath": "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ycl/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

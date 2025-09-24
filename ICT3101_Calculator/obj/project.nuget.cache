@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "IWslTcBLsM4=",
+  "success": true,
+  "projectFilePath": "/Users/ycl/Library/CloudStorage/OneDrive-SingaporeInstituteOfTechnology/SIT docs/Year 3.1/SoftwareVerification/lab2.1/ICT3101_Calculator/ICT3101_Calculator/ICT3101_Calculator.csproj",
+  "expectedPackageFiles": [
+    "/Users/ycl/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/ycl/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/ycl/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.36/microsoft.netcore.app.host.osx-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
