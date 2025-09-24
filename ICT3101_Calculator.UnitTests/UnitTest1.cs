@@ -168,4 +168,59 @@ public class CalculatorTests
     {
         Assert.That(() => _calculator.UnknownFunctionB(4, 5), Throws.ArgumentException);
     }
+
+    // GenMagicNum tests
+    [Test]
+    public void GenMagicNum_WithValidIndex0_ReturnsExpectedValue()
+    {
+        // 42 from index 0, should return 2 * 42 = 84
+        var fileReader = new FileReader();
+        var result = _calculator.GenMagicNum(0, fileReader);
+        Assert.That(result, Is.EqualTo(84));
+    }
+
+    [Test]
+    public void GenMagicNum_WithValidIndex1_ReturnsExpectedValue()
+    {
+        // 13.5 from index 1, should return 2 * 13.5 = 27
+        var fileReader = new FileReader();
+        var result = _calculator.GenMagicNum(1, fileReader);
+        Assert.That(result, Is.EqualTo(27));
+    }
+
+    [Test]
+    public void GenMagicNum_WithValidIndex2_ReturnsExpectedValue()
+    {
+        // -7 from index 2, should return -2 * -7 = 14
+        var fileReader = new FileReader();
+        var result = _calculator.GenMagicNum(2, fileReader);
+        Assert.That(result, Is.EqualTo(14));
+    }
+
+    [Test]
+    public void GenMagicNum_WithValidIndex4_ReturnsZero()
+    {
+        // 0 from index 4, should return -2 * 0 = 0
+        var fileReader = new FileReader();
+        var result = _calculator.GenMagicNum(4, fileReader);
+        Assert.That(result, Is.EqualTo(0));
+    }
+
+    [Test]
+    public void GenMagicNum_WithNegativeIndex_ReturnsZero()
+    {
+        // Invalid index, should return 0 (no processing)
+        var fileReader = new FileReader();
+        var result = _calculator.GenMagicNum(-1, fileReader);
+        Assert.That(result, Is.EqualTo(0));
+    }
+
+    [Test]
+    public void GenMagicNum_WithIndexOutOfRange_ReturnsZero()
+    {
+        // Index beyond array length, should return 0 (no processing)
+        var fileReader = new FileReader();
+        var result = _calculator.GenMagicNum(10, fileReader);
+        Assert.That(result, Is.EqualTo(0));
+    }
 }

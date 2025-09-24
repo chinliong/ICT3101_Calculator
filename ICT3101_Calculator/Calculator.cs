@@ -190,4 +190,18 @@ public class Calculator
         if (tau == 0) return 0; // Special case to avoid ln(1) = 0
         return (1 / theta) * Math.Log(lambda0 * tau + 1);
     }
+
+    // Magic number generator with dependency injection
+    public double GenMagicNum(double input, IFileReader fileReader)
+    {
+        double result = 0;
+        int choice = Convert.ToInt16(input);
+        string[] magicStrings = fileReader.Read("MagicNumbers.txt");
+        if ((choice >= 0) && (choice < magicStrings.Length))
+        {
+            result = Convert.ToDouble(magicStrings[choice]);
+        }
+        result = (result > 0) ? (2 * result) : (-2 * result);
+        return result;
+    }
 }
