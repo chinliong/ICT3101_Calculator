@@ -65,13 +65,22 @@ public class Calculator
     public double Subtract(double a, double b) => a - b;
     public double Multiply(double a, double b) => a * b;
 
-    // Lab step 14: throw for ANY zero input (0,0), (0,x), (x,0)
+    // Lab step 14: Special division behavior for zeros
     public double Divide(double a, double b)
     {
-        if (b == 0 && a == 0) return 1;                     // 0/0 -> 1 per lab
-        if (b == 0 && a > 0) return double.PositiveInfinity; // x/0 -> +∞ (x>0)
-        if (b == 0 && a < 0) return double.NegativeInfinity; // x/0 -> -∞ (x<0)
-        return a / b;                                        // includes 0/n = 0
+        // Special case: 0/0 should return 1 (per SpecFlow requirements)
+        if (a == 0 && b == 0) return 1;
+        
+        // Division by zero cases
+        if (b == 0)
+        {
+            if (a > 0) return double.PositiveInfinity;
+            if (a < 0) return double.NegativeInfinity;
+            return double.NaN; // Should not reach here due to first condition
+        }
+        
+        // Normal division, including 0/n = 0
+        return a / b;
     }
 
 

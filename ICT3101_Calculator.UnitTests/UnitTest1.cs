@@ -33,14 +33,16 @@ public class CalculatorTests
         Assert.That(result, Is.EqualTo(20));
     }
 
-    // Step 14: zeros should throw
+    // Step 14: Special division cases for zeros
     [Test]
-    [TestCase(0, 0)]
-    [TestCase(0, 10)]
-    [TestCase(10, 0)]
-    public void Divide_WithZerosAsInputs_ResultThrowArgumentException(double a, double b)
+    [TestCase(0, 0, 1)]  // 0/0 = 1 (special case)
+    [TestCase(0, 10, 0)] // 0/n = 0 (normal)
+    [TestCase(10, 0, double.PositiveInfinity)] // n/0 = +∞ (positive)
+    [TestCase(-5, 0, double.NegativeInfinity)] // -n/0 = -∞ (negative)
+    public void Divide_WithZerosAsInputs_ReturnsExpectedResults(double a, double b, double expected)
     {
-        Assert.That(() => _calculator.Divide(a, b), Throws.ArgumentException);
+        var result = _calculator.Divide(a, b);
+        Assert.That(result, Is.EqualTo(expected));
     }
 
     [Test]
